@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Swiss Summit Resort | Contact</title>
+
+    <meta name="author" content="Marisa Guisto">
+    <meta name="description" content="Contact Website for Swiss Summit Resort">
+
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="cssobfuscated.css">
+  </head>
+
+  <body> 
+    <header>
+        <h1><a href="index.html">Swiss Summit Resorts</a></h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Accommodations</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>
+                Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!
+                Required fields marked with a <span class="required">*</span>
+            </p>
+            </section>
+        <img id="peak" src="images/swiss-peak.jpg" alt="a river running through a lush green valley surrounded by green pine trees with a snowy peak in the background" width="350" height="455">
+        <form action="https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank">
+      
+            <label for="full-name">Full Name (first and last): <span class="required">*</span></label>
+            <input type="text" name="full-name" id="full-name" required>
+            
+            <label for="email-addr">Email Address: <span class="required">*</span></label>
+            <input type="email" name="email-addr" id="email-addr" required>
+            
+            <label for="phone-num">Phone Number: <span class="required">*</span></label>
+            <input type="tel" name="phone-num" id="phone-num" required>
+
+            <fieldset>
+                <legend>Preferred Method of Contact: <span class="required">*</span></legend>
+                
+                <input type="radio" name="pref-contact" id="telephone" value="telephone" required checked>
+                <label for="telephone">Telephone</label>
+        
+                <input type="radio" name="pref-contact" id="email" value="email">
+                <label for="email">Email</label>
+            </fieldset>
+
+            <label for="my-comments">Comments</label>
+			<textarea name="my-comments" id="my-comments"></textarea>
+            
+            <input type="submit" name="my-submit3" id="my-submit" value="Submit Form">
+        </form>
+    </main>
+    <footer>
+        <p>
+            Copyright &copy;2024 - Swiss Summit Resort
+        </p>
+        <p>
+            For Educational Purposes Only
+        </p>
+        <a href="https://www.vecteezy.com/free-png/mountain-logo">Mountain Logo PNGs (favicon) by Vecteezy</a>
+    </footer>
+  </body>
+
+</html>
